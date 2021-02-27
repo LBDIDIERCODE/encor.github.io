@@ -439,7 +439,7 @@
  		<div class="row">
  			<div class="col-md-12" style="background-color: #83cef3">
  				<p class="float-left">@copyrightwedevetech</p>
- 				<p class="float-right"> top</p>
+ 				<p class="float-right"> tops</p>
  			</div>
  		</div>
  	</div>
