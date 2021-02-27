@@ -51,7 +51,7 @@
 		  			<div class="container">
 				  		<div class="row">
 				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-				  				<a href="tel:+953 012 3654 896">+91 886 1782 954</a>
+							<a href="tel:+953 012 3654 896">+91 886 1782 954</a>
 				  				<a href="mailto:support@colorlib.com">wedevetech@gmail.com</a>					  
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
@@ -104,6 +104,7 @@
 			<!-- start banner Area -->
 			
 		
+			<?php include 'demo1.html'; echo "hello";?>
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home" style="height: 100vh;" >
@@ -460,4 +461,9 @@
 			<script src="js/jquery.nice-select.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+<<<<<<< HEAD
 		</body>
+=======
+		</body>
+	</html>
+>>>>>>> 2cea14f920ae176172c07bd056d1724bea9432c7
