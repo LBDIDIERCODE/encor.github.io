@@ -45,6 +45,65 @@
 		</head>
 		<body class="">	
 			<?php include 'demo1.html';?>
+				
+			<header id="header" id="home">
+		  		<div class="header-top">
+		  			<div class="container">
+				  		<div class="row">
+				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+				  				<a href="tel:+953 012 3654 896">+91 886 1782 954</a>
+				  				<a href="mailto:support@colorlib.com">wedevetech@gmail.com</a>					  
+				  			</div>
+				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+				  				<ul class="istyle">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance"></i></a></li>
+				  				</ul>			
+				  			</div>
+				  		</div>			  					
+		  			</div>
+				</div>
+			    <div class="container menuscreenmobile main-menu" >
+			    	<div class="row align-items-center justify-content-between d-flex">
+
+
+
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logo.png" alt="" title="" class="logo" /></a>
+				      </div>
+
+
+				      <nav id="nav-menu-container" id="navbarSupportedContent">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="index.php">Home</a></li>
+				          
+				         
+				           <li class=" dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          service
+        </a>
+        <ol class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="webapp.php" style="color: black;">web sevelopment</a></li>
+          <li><a class="dropdown-item" href="#" style="color: black;">SEO</a></li>
+         <li> <a class="dropdown-item" href="marketing.php" style="color: black;">digital marketing</a></li>
+        </ol>
+      </li>
+
+				          <li><a href="">Projects</a></li>
+				          <li><a href="">About</a></li>
+				          <li><a href="">Contact</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->
+				     		    		
+			    	</div>
+			    </div>
+			  </header><!-- #header -->
+
+			<!-- start banner Area -->
+			
+		
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home" style="height: 100vh;" >
@@ -331,7 +390,61 @@
 					</div>
 				</div>	
 			</section>
-			<!-- End brands Area -->			
+			<!-- End brands Area -->	
+			<section class="footer">
+ 	<div class="container">
+ 		<div class="row p-5">
+ 			<div class="col-md-3  text-center logfooter ">
+ 				<img src="img/logo.png" style="width: 150px;">
+ 				<p class="border-right">here is where you can well serveed with the best application developed s</p>
+ 			</div>
+ 			<div class="col-md-3 catego">
+ 				<h3>about comany</h3>
+ 				<ul>
+ 					<li> about us</li>
+ 					<li>service</li>
+ 					<li>project</li>
+ 					<li>contact</li>
+ 				</ul>
+ 			</div>
+ 			<div class="col-md-3 catego">
+ 				 <h3>categories</h3>
+ 				 <ul>
+ 				 	<li>home & family</li>
+ 				 	<li>food & restaurent</li>
+ 				 	<li>design & photography</li>
+ 				 	<li>sport & travel</li>
+ 				 	<li>education and tourism</li>
+ 				 </ul>
+ 			</div>
+ 			<div class="col-md-3 getinfooter" >
+ 				<h3>get in touch</h3>
+ 				<a href="tel:+953 012 3654 896"><i class="fa fa-phone" aria-hidden="true"></i>91 886 1782 954</a><br>
+				  				<a href="mailto:support@colorlib.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></i>wedevetech@gmail.com</a><br>
+				  				<a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>wedevetech</a>
+                  <ul class="istyle">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance"></i></a></li>
+				  				</ul>
+				  			
+				  				
+ 			</div>
+
+ 		</div>
+
+ 	</div>
+ 	<div class="container-fluid">
+ 		<div class="row">
+ 			<div class="col-md-12" style="background-color: #83cef3">
+ 				<p class="float-left">@copyrightwedevetech</p>
+ 				<p class="float-right"> top</p>
+ 			</div>
+ 		</div>
+ 	</div>
+ </section>
+		
 
 			<?php include 'footer.php';?>
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
@@ -348,4 +461,3 @@
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
 		</body>
-	</html>
