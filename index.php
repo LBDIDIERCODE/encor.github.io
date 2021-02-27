@@ -44,7 +44,7 @@
 			</style>
 		</head>
 		<body class="">	
-			<?php include 'demo1.html';?>
+			<?php include 'demo1.html'; echo "hello";?>
 
 			<!-- start banner Area -->
 			<section class="banner-area relative" id="home" style="height: 100vh;" >
